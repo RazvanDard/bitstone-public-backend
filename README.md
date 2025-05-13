@@ -133,4 +133,4 @@ https://streamable.com/0fv3fx?src=player-page-share
 
 
 # Hosted website 
-[text](https://snaptheissue.xyz/)
+[website link](https://snaptheissue.xyz/)
