@@ -825,7 +825,7 @@ def analyze_batch():
                     }
             
             # Use ThreadPoolExecutor to process images in parallel
-            max_workers = min(5, len(image_files))  # Limit to 8 workers max to avoid overloading API
+            max_workers = min(50, len(image_files))  # Limit to 8 workers max to avoid overloading API
             if max_workers > 0:
                 print(f"Processing {len(image_files)} images with {max_workers} workers")
                 try:
